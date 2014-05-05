@@ -62,6 +62,7 @@ switch(_shop) do
 				["Altis Patrol Officer Shop",
 					[
 						["arifle_MX_F",nil,35000],
+						["SMG_01_ACO_F",nil,32500],
 						["SMG_02_ACO_F",nil,30000],
 						["MineDetector",nil,1000],
 						["acc_flashlight",nil,750],
@@ -69,6 +70,7 @@ switch(_shop) do
 						["optic_Arco",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,130],
+						["30Rnd_45ACP_Mag_SMG_01",nil,100],
 						["30Rnd_9x21_Mag",nil,75]						
 					]
 				];
@@ -86,6 +88,7 @@ switch(_shop) do
 			{
 				["Altis Sergeant Officer Shop",
 					[
+						["SMG_01_ACO_F",nil,20000],
 						["SMG_02_ACO_F",nil,15000],
 						["hgun_ACPC2_F",nil,17500],
 						["arifle_MXC_F",nil,30000],
@@ -101,6 +104,7 @@ switch(_shop) do
 						["acc_pointer_IR",nil,2500],
 						["muzzle_snds_H",nil,2750],
 						["30Rnd_65x39_caseless_mag",nil,100],
+						["30Rnd_45ACP_Mag_SMG_01",nil,80],
 						["30Rnd_9x21_Mag",nil,60],
 						["9Rnd_45ACP_Mag",nil,45],
 						["5Rnd_127x108_Mag",nil,400],
@@ -157,12 +161,16 @@ switch(_shop) do
 						["hgun_Pistol_heavy_02_F",nil,9850],
 						["hgun_ACPC2_F",nil,11500],
 						["hgun_PDW2000_F",nil,20000],
+						["SMG_01_F",nil,45000],
 						["optic_ACO_grn_smg",nil,2500],
+						["optic_MRD",nil,6000],
+						["optic_Yorris",nil,5000],
 						["V_Rangemaster_belt",nil,4900],
 						["16Rnd_9x21_Mag",nil,25],
 						["9Rnd_45ACP_Mag",nil,45],
 						["6Rnd_45ACP_Cylinder",nil,50],
-						["30Rnd_9x21_Mag",nil,75]
+						["30Rnd_9x21_Mag",nil,75],
+						["30Rnd_45ACP_Mag_SMG_01",nil,200]
 					]
 				];
 			};
@@ -186,7 +194,7 @@ switch(_shop) do
 						["itemgps",nil,50],
 						["FirstAidKit",nil,25],
 						["16Rnd_9x21_Mag",nil,25],
-						["30Rnd_9x21_Mag",nil,75]
+						["30Rnd_9x21_Mag",nil,75],
 					]
 				];
 			};
@@ -197,7 +205,8 @@ switch(_shop) do
 					[
 						["hgun_Rook40_F",nil,600],
 						["hgun_PDW2000_F",nil,5000],
-						["SMG_02_F",nil,50000],
+						["SMG_01_F",nil,35000],
+						["SMG_02_F",nil,40000],
 						["arifle_MK20C_plain_F",nil,25000],
 						["optic_ACO_grn_smg",nil,500],
 						["acc_pointer_IR",nil,1000],
@@ -209,6 +218,7 @@ switch(_shop) do
 						["FirstAidKit",nil,20],
 						["16Rnd_9x21_Mag",nil,25],
 						["30Rnd_9x21_Mag",nil,25],
+						["30Rnd_45ACP_Mag_SMG_01",nil,35],
 						["30Rnd_556x45_Stanag",nil,125],
 						["5Rnd_127x108_Mag",nil,400]
 					]
@@ -222,6 +232,8 @@ switch(_shop) do
 						["hgun_Rook40_F",nil,500],
 						["hgun_PDW2000_F",nil,4000],
 						["hgun_pistol_heavy_01_F",nil,5850],
+						["SMG_01_F",nil,25000],
+						["SMG_02_F",nil,35000],
 						["arifle_Mk20C_plain_F",nil,15000],
 						["arifle_MX_SW_F",nil,100000],
 						["arifle_MXM_DMS_F",nil,50000],
@@ -241,6 +253,7 @@ switch(_shop) do
 						["16Rnd_9x21_Mag",nil,25],
 						["30Rnd_9x21_Mag",nil,25],
 						["11Rnd_45ACP_Mag",nil,85],
+						["30Rnd_45ACP_Mag_SMG_01",nil,25],
 						["30Rnd_65x39_caseless_mag",nil,100],
 						["100Rnd_65x39_caseless_mag",nil,500],
 						["20Rnd_762x51_Mag",nil,300],
